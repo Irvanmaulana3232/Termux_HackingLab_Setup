@@ -13,7 +13,7 @@ blue = Fore.BLUE + Style.BRIGHT
 purple = Fore.MAGENTA + Style.BRIGHT
 cyan = Fore.CYAN + Style.BRIGHT
 white = Fore.WHITE + Style.BRIGHT
-no_colour = Fore.RESET + Back.RESET + Style.RESET_ALL
+red = Fore.RESET + Back.RESET + Style.RESET_ALL
 def line_print(n):
     for word in n + "\n":
         sys.stdout.write(word)
